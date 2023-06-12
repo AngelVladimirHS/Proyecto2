@@ -22,5 +22,4 @@ Este repositorio contiene el programa que consiste en ingresar dos numeros, al i
 * Clonar el proyecto
 * Ejecutar el archivo Main para probar el programa
 * Ejecutar el archivo OperacionesTest para comprobar la funcionalidad
-* JAVC
 

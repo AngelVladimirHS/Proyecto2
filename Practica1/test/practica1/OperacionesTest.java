@@ -26,4 +26,15 @@ public class OperacionesTest {
         assertEquals(expResult, result);
     }
 
+    /**
+     * Test of obtenerNumeros method, of class Operaciones.
+     */
+    @Test
+    public void testObtenerNumeros2() {
+        System.out.println("obtenerNumeros");
+        List<Integer> expResult = new ArrayList<>(List.of(21,22,23,24,25,26,27,28,29));
+        List<Integer> result = Operaciones.obtenerNumeros(20, 30);
+        assertEquals(expResult, result);
+    }
+
 }
