@@ -21,7 +21,7 @@ public class OperacionesTest {
     @Test
     public void testObtenerNumeros() {
         System.out.println("obtenerNumeros");
-        List<Integer> expResult = new ArrayList<>(List.of(2,3,4,5,6,7,8,9));
+        List<Integer> expResult = new ArrayList<>(List.of(2,4,6,8));
         List<Integer> result = Operaciones.obtenerNumeros(1, 10);
         assertEquals(expResult, result);
     }
@@ -32,7 +32,7 @@ public class OperacionesTest {
     @Test
     public void testObtenerNumeros2() {
         System.out.println("obtenerNumeros");
-        List<Integer> expResult = new ArrayList<>(List.of(21,22,23,24,25,26,27,28,29));
+        List<Integer> expResult = new ArrayList<>(List.of(22,24,26,28));
         List<Integer> result = Operaciones.obtenerNumeros(20, 30);
         assertEquals(expResult, result);
     }
