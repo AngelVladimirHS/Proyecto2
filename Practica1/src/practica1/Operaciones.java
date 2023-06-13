@@ -19,7 +19,9 @@ public class Operaciones {
         List<Integer> numeros = new ArrayList<Integer>();
         int numeroIntermedio = ++numero1;
         while (numero2 > numeroIntermedio) {
-            numeros.add(numeroIntermedio);
+	    if (numeroIntermedio % 2 !=0) {
+            	numeros.add(numeroIntermedio);
+	    }
             ++numeroIntermedio;
         }
         return numeros;
